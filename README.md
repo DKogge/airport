@@ -59,7 +59,7 @@ For the Airline project, the team chose to perform the tasks under **Data Engine
 
 Airline performance Dataset is drawn from different sources into multiple datasets, has multi-row transactions and the data is more structured, hence we chose Relational Database Management System(RDMS) - Postgres as our Database in this project.
 
-Airline Database contains 3 tables to hold data from 3 CSVs. Entity Relattionship Diagram is designed as shown below
+Airline Database contains 3 tables to hold data from 3 CSVs. Entity Relationship Diagram is designed as shown below
 
     a. airport_data
     b. air_carrier_data
