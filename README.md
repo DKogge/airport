@@ -85,7 +85,7 @@ Airline Database contains 3 tables to hold data from 3 CSVs. Entity Relationship
 ![alt text](Screenshots/13_After_Data_Load.png)
 
 ## Ethical Considerations
-
+We reviewed the data and the source documentation.  All the information is provided by the US DOT and relates to public companies in a highly regulated industry.  We did not find any of the data to be ethically concerning.
 
 ## References
 
