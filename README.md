@@ -97,5 +97,6 @@ We reviewed the data and the source documentation.  All the information is provi
 
 1. Dataset: https://data.world/dot/airline-on-time-performance-statistics
 2. Dataset Definitions: https://www.transtats.bts.gov/DatabaseInfo.asp?QO_VQ=EFD&Yv0x=D
-3. Reset index for dataframe: https://stackoverflow.com/questions/20167930/start-index-at-1-for-pandas-dataframe
-4. Seaborn Documentation: https://pypi.org/project/seaborn/
+3. Downcast: https://www.educative.io/answers/what-is-the-tonumeric-function-in-pandas
+4. Reset index for dataframe: https://stackoverflow.com/questions/20167930/start-index-at-1-for-pandas-dataframe
+5. Seaborn Documentation: https://pypi.org/project/seaborn/
