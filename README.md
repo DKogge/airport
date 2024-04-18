@@ -86,7 +86,7 @@ The Airline Database contains 3 tables to hold data from 3 CSVs. Entity Relation
 
 ## Instructions to read from the database to use Seaborn for visualizations
 
-To further showcase what can be done with the summarized data stored in Postgres, SQLAlchemy was used in conjunction with Pandas to connect to the database. The table used for the example was august_2018, where a query was created to filter the table down to show delays from the Minneapolis-Saint Paul (MSP) airport. Flights considered to be delayed had a dep_delay value greater than 0 and the origin value of MSP. That DataFrame would later be used by the Seaborn module.  The delayed flights under the stated criteria were visualized using Seaborn, with the count of delayed flights being charted by day for August 2018 as shown below
+To further showcase what can be done with the summarized data stored in Postgres, SQLAlchemy was used in conjunction with Pandas to connect to the database. The table used for the example was august_2018, where a query was created to filter the table down to show delays from the Minneapolis-Saint Paul (MSP) airport. Flights considered to be delayed had a dep_delay value greater than 0 and the origin value of MSP. That DataFrame would later be used by the Seaborn module.  The delayed flights under the stated criteria were visualized using Seaborn, a Python visualization library that uses matplotlib to easily create data visualizations from DataFrames. The line chart created using this library shows the count of delayed flights by day for August 2018, as shown below
 
 ![alt text](Screenshots/14_MSP_Delayed_Flights.png)
 
