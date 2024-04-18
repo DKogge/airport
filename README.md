@@ -84,6 +84,12 @@ The Airline Database contains 3 tables to hold data from 3 CSVs. Entity Relation
 5. Once the data is imported in the order of airport_data, air_carrier_data, and august_2018, to avoid any foreign key constraints, the table counts in the database are as shown
 ![alt text](Screenshots/13_After_Data_Load.png)
 
+## Instructions to read from the database to use Seaborn for visualizations
+
+To further showcase what can be done with the summarized data stored in Postgres, SQLAlchemy was used in conjunction with Pandas to connect to the database. The table used for the example was august_2018, where a query filtered to show delays from the Minneapolis-Saint Paul (MSP) airport was applied. That DataFrame would later be used to feed the Seaborn module. Flights were considered to be delayed had a dep_delay value greater than 0 and the origin of interest was MSP. The delayed flights under these criteria were visualized using Seaborn, with the count of delayed flights being charted by day for August 2018 as shown below
+
+![alt text](Screenshots/14_MSP_Delayed_Flights.png)
+
 ## Ethical Considerations
 We reviewed the data and the source documentation.  All the information is provided by the US DOT and relates to public companies in a highly regulated industry.  We did not find any of the data to be ethically concerning.
 
